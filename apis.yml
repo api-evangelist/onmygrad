@@ -1,8 +1,34 @@
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 aid: onmygrad
-name: Onmygrad
-description: Onmygrad is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: OnMyGrad
+description: >-
+  OnMyGrad is a Hong Kong-based campus-recruitment and career-learning SaaS
+  platform that helps employers connect with university talent across Southeast
+  Asia through virtual job-tasting and work-experience programs. Founded in 2021
+  by Jesse Chow and Chun Hin Anthony So, its B2B2C "OnMyGrad Space" lets
+  employers build branded profiles, run virtual talent pipelines, and evaluate
+  candidates, while students access immersive career and industry learning
+  content from leading employers. The company launched its MVP in February 2021,
+  raised pre-seed funding from 500 Global, and is expanding into Singapore and
+  Taiwan. It operates a public marketing site and a web application but does not
+  currently publish a public developer API, SDKs, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/onmygrad/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://onmygrad.space/images/og-image.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +37,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- EdTech
+- Recruitment
+- Careers
+- Human Resources
+- Campus Recruitment
+- Talent
+- SaaS
+- Southeast Asia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,17 @@ maintainers:
 common:
 - type: Website
   url: https://onmygrad.space
+- type: Blog
+  url: https://onmygrad.space/blog
+- type: Login
+  url: https://app.onmygrad.space
+- type: PrivacyPolicy
+  url: https://onmygrad.space/privacy
+- type: TermsOfService
+  url: https://onmygrad.space/tnc
+- type: LinkedIn
+  url: https://hk.linkedin.com/company/onmygradplatform
+- type: ContentSignal
+  url: well-known/onmygrad-content-signal.txt
+- type: DomainSecurity
+  url: security/onmygrad-domain-security.yml

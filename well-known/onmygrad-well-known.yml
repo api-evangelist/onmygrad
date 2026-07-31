@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of onmygrad.space
+host: https://onmygrad.space
+documents:
+- path: /robots.txt
+  status: 200
+  file: onmygrad-content-signal.txt
+  kind: content-signal
+  note: Cloudflare-managed AIPREF/Content-Signal declaration (search=yes, ai-train=no,
+    use=reference); disallows Amazonbot, Applebot-Extended, Bytespider, CCBot, ClaudeBot,
+    Google-Extended, GPTBot, meta-externalagent.
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
